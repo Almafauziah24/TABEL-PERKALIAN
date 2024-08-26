@@ -1,0 +1,9 @@
+#menampilkan tabel perkalian
+
+print("tabel perkalian")
+
+#membuat variabel input
+angka = int(input("menampilkan tabel perkalian mulai dari angka : "))
+#membuat perulangan menggunakan for
+for i in range (1, 11):
+    print(angka, "x", i, "=", angka * i)
